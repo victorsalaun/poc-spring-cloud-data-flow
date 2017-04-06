@@ -11,6 +11,9 @@
 
     <modules>
         <module>data-flow-server</module>
+        <module>http-source</module>
+        <module>log-sink</module>
+        <module>string-processor</module>
     </modules>
 
 </project>
