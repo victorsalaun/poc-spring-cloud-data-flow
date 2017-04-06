@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/data-flow-server/dataflow-server.iml" filepath="$PROJECT_DIR$/data-flow-server/dataflow-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/poc-spring-cloud-data-flow.iml" filepath="$PROJECT_DIR$/poc-spring-cloud-data-flow.iml" />
+    </modules>
+  </component>
+</project>
