@@ -6,10 +6,10 @@ import org.springframework.cloud.dataflow.server.EnableDataFlowServer;
 
 @EnableDataFlowServer
 @SpringBootApplication
-public class DataFlowServerApplication {
+public class DataFlowServerApplicationStarter {
 
     public static void main(String[] args) {
-        SpringApplication.run(DataFlowServerApplication.class, args);
+        SpringApplication.run(DataFlowServerApplicationStarter.class, args);
     }
 
 }

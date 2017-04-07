@@ -2,12 +2,12 @@ package com.victorsalaun.properties;
 
 import org.hibernate.validator.constraints.NotBlank;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.integration.handler.LoggingHandler;
 
 import javax.validation.constraints.NotNull;
 
-@ConfigurationProperties("log")
+@Configuration
 public class LogSinkProperties {
 
     /**

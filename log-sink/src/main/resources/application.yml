@@ -2,4 +2,4 @@ management:
   security:
     enabled: false
 server:
-  port: 8800
+  port: 8820

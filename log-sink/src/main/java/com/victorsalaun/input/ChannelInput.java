@@ -1,6 +1,8 @@
 package com.victorsalaun.input;
 
 import com.victorsalaun.properties.LogSinkProperties;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.stream.messaging.Sink;
 import org.springframework.context.annotation.Bean;
@@ -10,6 +12,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class ChannelInput {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(ChannelInput.class.getCanonicalName());
 
     private final LogSinkProperties properties;
 
