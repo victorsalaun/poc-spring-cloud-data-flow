@@ -11,6 +11,7 @@
 
     <modules>
         <module>data-flow-server</module>
+        <module>spring-boot-admin</module>
         <module>http-source</module>
         <module>log-sink</module>
         <module>string-processor</module>
