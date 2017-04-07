@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: CLOUD-CONFIG
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/shared

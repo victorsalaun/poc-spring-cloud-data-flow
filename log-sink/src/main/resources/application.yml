@@ -1,5 +1,11 @@
 management:
   security:
     enabled: false
+
 server:
   port: 8820
+
+spring:
+  boot:
+    admin:
+      url:  http://localhost:9999
